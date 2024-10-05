@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         ArrayList<Champion> champions = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
-        String archCSV = "C:\\Documentos\\ingenieria informatica\\Segundo_carrera\\Programacion Orientada a Objetos\\javaProjects\\Champions\\champions.csv";
+        String archCSV = "Your Path";
         CSVController reader = new CSVController();
 
         champions = reader.readCSV(archCSV);
